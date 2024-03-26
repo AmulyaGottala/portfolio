@@ -1,0 +1,171 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(121, 116, 116);
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  margin: 70px 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.header button {
+  background-color: black;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  transition: 0.3s;
+  color: rgb(151, 180, 206);
+}
+
+.card {
+  border: 0.3px solid rgb(53, 50, 50);
+  margin: 20px;
+  padding: 20px;
+  justify-content: start;
+  align-items: center;
+  border-radius: 14px;
+  width: 100%;
+  right: 400px;
+}
+
+.founder-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 14px;
+  margin: 10px;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+}
+
+.founder-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  top: -20px;
+  position: absolute;
+}
+
+.founder-card section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.founder-card h2 {
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+
+.description-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+form {
+  border: 0.3px solid rgb(142, 134, 134);
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  padding: 20px;
+  border-radius: 14px;
+  position: relative;
+  left: 300px;
+}
+
+input,
+textarea {
+  margin: 4px;
+  border-radius: 14px;
+  padding: 15px;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+}
+
+textarea {
+  width: 92%;
+}
+
+form button {
+  padding: 15px 20px;
+  width: 200px;
+  margin: 4px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 17px;
+}
+
+mark {
+  position: relative;
+  background-color: #fff;
+}
+mark:after {
+  border: 0.1em solid yellow;
+  border-top: none;
+  border-radius: 60%;
+  bottom: -0.3em;
+  content: "";
+  left: -0.3em;
+  position: absolute;
+  right: -0.3em;
+  top: -0.1em;
+}
+mark:before {
+  border-top: 0.25em solid yellow;
+}
+
+h2 {
+  display: flex;
+  gap: 25px;
+}
